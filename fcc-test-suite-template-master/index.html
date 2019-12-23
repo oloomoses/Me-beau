@@ -10,21 +10,31 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
 
+    <h1 id="landing-page-header">Product Landing Page</h1>
+
     <div id="header">
       <IMG src="url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjB-Naop8rmAhXKaFAKHVldAvcQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.facebook.com%2Farandomcompany%2F&psig=AOvVaw1_UP3_1N3wbRumQBmDMPiG&ust=1577140223122063)" id="header-img">
       </IMG>
 
       <nav id="nav-bar">
         <a href="#section1" class="nav-link">section1</a>
-        <a href="#section2" class="nav-link">section2</a>
+        <a href="#section2" class="nav-link">section2</a>	
         <a href="#section3" class="nav-link">section3</a>       
 
       </nav>
     </div>
 
-    <section id = "section1"></section>
-    <section id = "section2"></section>
-    <section id = "section3"></section>
+    <div class="flex-container">
+    	<section id = "section1">What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu</section>
+    	<section id = "section2">Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpo</section>
+    	<section id = "section3">
+    		Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free 
+    	</section>
+    	
+    </div>
 
     <iframe src="https://www.youtube.com/watch?v=8RB-GZkLKQA" id="video" width="200" height="200" ></iframe>
 
@@ -37,4 +47,59 @@
     </form>
 
   </body>
+
+
+  <style type="text/css">
+  	
+  	#landing-page-header {
+  		text-align: center;
+  		color: green;
+
+  	}
+  	.flex-container {
+  		display: flex;
+  		margin-top: 30px;
+	}
+
+  	@media only screen and (max-width: 600px) {
+  		body {
+    		background-color: red;
+  		}
+	}
+
+	.nav-link {
+
+		background: green;
+		text-decoration: none;
+		color: white;
+		padding: 20px;
+		font-weight: bold;
+		border-radius: 5px;
+
+	}
+
+	#form {
+		padding: 20px;
+		margin: 20px;
+		background: gray;
+		width: 20%;
+
+	}	
+
+	#email {
+
+		width: 100%;
+		padding: 5px;
+		background: white;
+		color: green;
+	}
+
+	#submit {
+
+		padding: 5px;
+		margin-left: 80%;
+
+	}
+
+  </style>
 </html>
