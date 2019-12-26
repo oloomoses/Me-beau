@@ -21,6 +21,11 @@ body{
       background-color: red;
     }
 }
+.header{
+  width:100%;
+  background-color: #fff;
+  color:rgb(102, 48, 102);
+}
 
 .nav-link {
 
@@ -36,11 +41,7 @@ body{
 }
 .nav {
     position: fixed;
-    top: 0px;
-    
-    
-
-    
+    top: 0px;    
 }​
 
 #form {
@@ -65,7 +66,7 @@ body{
     padding-bottom: 20px;
 }
 .middle{
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     background-color: #fff;
     color: rgb(102, 48, 102);
@@ -73,4 +74,5 @@ body{
 h2{
     font-weight: bold;
     margin-bottom: 1em;
+    padding-top: 10px;
 }
